@@ -17,7 +17,7 @@ const steps = [
     title: "Create an Account",
     description: "Sign up in just a few steps to gain access to seamless bill payment services.",
     details: ["Simple registration", "Instant verification", "Secure profile setup"],
-    color: "from-[#4070F4] to-[#5B8DEF]",
+    color: "from-[#FE9701] to-[#5B8DEF]",
     bgColor: "bg-blue-50",
     number: "02",
   },
@@ -63,7 +63,7 @@ const HowItWorks = () => {
     >
       {/* Background Elements */}
       <div className="absolute inset-0">
-        <div className="absolute top-32 left-20 w-72 h-72 bg-[#4070F4]/5 rounded-full blur-3xl" />
+        <div className="absolute top-32 left-20 w-72 h-72 bg-[#FE9701]/5 rounded-full blur-3xl" />
         <div className="absolute bottom-32 right-20 w-96 h-96 bg-purple-100/40 rounded-full blur-3xl" />
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-radial from-blue-50/60 to-transparent rounded-full" />
       </div>
@@ -77,19 +77,19 @@ const HowItWorks = () => {
           viewport={{ once: true }}
           className="text-center mb-20"
         >
-          <div className="inline-flex items-center px-4 py-2 bg-[#4070F4]/10 rounded-full text-[#4070F4] text-sm font-medium mb-6">
+          <div className="inline-flex items-center px-4 py-2 bg-[#FE9701]/10 rounded-full text-[#FE9701] text-sm font-medium mb-6">
             <Smartphone className="w-4 h-4 mr-2" />
             Simple Process
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-gray-900">
             Get Started in
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#4070F4] to-[#60A5FA]">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FE9701] to-[#60A5FA]">
               {" "}
               3 Easy Steps
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Join thousands of satisfied users who have simplified their bill payments with Abum DATA. It takes less
+            Join thousands of satisfied users who have simplified their bill payments with DIKKODATA. It takes less
             than 5 minutes to get started.
           </p>
         </motion.div>
@@ -109,13 +109,13 @@ const HowItWorks = () => {
                 initial={{ scaleX: 0 }}
                 whileInView={{ scaleX: 1 }}
                 transition={{ duration: 1, delay: 0.5 }}
-                className="h-0.5 bg-gradient-to-r from-green-400 to-[#4070F4] flex-1 mx-8"
+                className="h-0.5 bg-gradient-to-r from-green-400 to-[#FE9701] flex-1 mx-8"
               />
               <motion.div
                 initial={{ scaleX: 0 }}
                 whileInView={{ scaleX: 1 }}
                 transition={{ duration: 1, delay: 0.8 }}
-                className="h-0.5 bg-gradient-to-r from-[#4070F4] to-purple-400 flex-1 mx-8"
+                className="h-0.5 bg-gradient-to-r from-[#FE9701] to-purple-400 flex-1 mx-8"
               />
             </div>
           </div>
@@ -138,13 +138,13 @@ const HowItWorks = () => {
                       className={`absolute inset-0 bg-gradient-to-br ${step.color} opacity-0 group-hover:opacity-10 rounded-3xl transition-opacity duration-300`}
                     />
                     <step.icon
-                      className={`h-10 w-10 text-gray-700 group-hover:text-[#4070F4] transition-colors duration-300`}
+                      className={`h-10 w-10 text-gray-700 group-hover:text-[#FE9701] transition-colors duration-300`}
                     />
                   </motion.div>
 
                   {/* Content */}
                   <div className="space-y-4">
-                    <h3 className="text-2xl font-bold text-gray-900 group-hover:text-[#4070F4] transition-colors duration-300">
+                    <h3 className="text-2xl font-bold text-gray-900 group-hover:text-[#FE9701] transition-colors duration-300">
                       {step.title}
                     </h3>
                     <p className="text-gray-600 leading-relaxed">{step.description}</p>
@@ -169,7 +169,7 @@ const HowItWorks = () => {
                   {/* Arrow for mobile */}
                   {index < steps.length - 1 && (
                     <div className="md:hidden flex justify-center mt-8">
-                      <ArrowRight className="w-6 h-6 text-[#4070F4]" />
+                      <ArrowRight className="w-6 h-6 text-[#FE9701]" />
                     </div>
                   )}
                 </div>
@@ -189,13 +189,13 @@ const HowItWorks = () => {
           <div className="bg-white rounded-3xl p-8 shadow-lg border border-gray-100 max-w-2xl mx-auto">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Ready to Get Started?</h3>
             <p className="text-gray-600 mb-6">
-              Join over 50,000 users who trust Abum DATA for their daily transactions
+              Join over 50,000 users who trust DIKKODATA for their daily transactions
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.button
                 whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(64, 112, 244, 0.3)" }}
                 whileTap={{ scale: 0.95 }}
-                className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-[#4070F4] to-[#5B8DEF] text-white rounded-xl hover:from-[#3060E0] hover:to-[#4A7CDE] transition-all duration-300 font-semibold shadow-lg"
+                className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-[#FE9701] to-[#5B8DEF] text-white rounded-xl hover:from-[#3060E0] hover:to-[#4A7CDE] transition-all duration-300 font-semibold shadow-lg"
               >
                 <Download className="w-5 h-5 mr-2" />
                 Download Now

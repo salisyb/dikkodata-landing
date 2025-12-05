@@ -53,7 +53,7 @@ const Security = () => {
     <section className="py-24 bg-gradient-to-br from-gray-50 via-white to-blue-50 relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0">
-        <div className="absolute top-20 right-10 w-80 h-80 bg-[#4070F4]/5 rounded-full blur-3xl" />
+        <div className="absolute top-20 right-10 w-80 h-80 bg-[#FE9701]/5 rounded-full blur-3xl" />
         <div className="absolute bottom-20 left-10 w-96 h-96 bg-green-100/40 rounded-full blur-3xl" />
       </div>
 
@@ -79,13 +79,13 @@ const Security = () => {
                   repeat: Number.POSITIVE_INFINITY,
                   ease: "easeInOut",
                 }}
-                className="relative w-80 h-80 bg-gradient-to-br from-[#4070F4] to-[#5B8DEF] rounded-full flex items-center justify-center shadow-2xl"
+                className="relative w-80 h-80 bg-gradient-to-br from-[#FE9701] to-[#5B8DEF] rounded-full flex items-center justify-center shadow-2xl"
               >
                 <Shield size={120} className="text-white" />
 
                 {/* Pulse Effect */}
-                <div className="absolute inset-0 rounded-full bg-[#4070F4]/20 animate-ping" />
-                <div className="absolute inset-4 rounded-full bg-[#4070F4]/10 animate-ping animation-delay-1000" />
+                <div className="absolute inset-0 rounded-full bg-[#FE9701]/20 animate-ping" />
+                <div className="absolute inset-4 rounded-full bg-[#FE9701]/10 animate-ping animation-delay-1000" />
               </motion.div>
 
               {/* Floating Security Icons */}
@@ -109,7 +109,7 @@ const Security = () => {
                   }}
                   className={`absolute ${item.position} w-16 h-16 bg-white rounded-2xl shadow-lg flex items-center justify-center`}
                 >
-                  <item.icon className="w-8 h-8 text-[#4070F4]" />
+                  <item.icon className="w-8 h-8 text-[#FE9701]" />
                 </motion.div>
               ))}
             </div>
@@ -131,7 +131,7 @@ const Security = () => {
               </div>
               <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 leading-tight">
                 Your Security is Our
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#4070F4] to-[#60A5FA]">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FE9701] to-[#60A5FA]">
                   {" "}
                   Top Priority
                 </span>
@@ -158,8 +158,8 @@ const Security = () => {
                   whileHover={{ scale: 1.02, x: 5 }}
                   className="flex items-start space-x-4 p-4 bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100"
                 >
-                  <div className="w-12 h-12 bg-[#4070F4]/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                    <feature.icon className="w-6 h-6 text-[#4070F4]" />
+                  <div className="w-12 h-12 bg-[#FE9701]/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <feature.icon className="w-6 h-6 text-[#FE9701]" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">{feature.title}</h3>
@@ -200,7 +200,7 @@ const Security = () => {
               <motion.button
                 whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(64, 112, 244, 0.3)" }}
                 whileTap={{ scale: 0.95 }}
-                className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-[#4070F4] to-[#5B8DEF] text-white rounded-xl hover:from-[#3060E0] hover:to-[#4A7CDE] transition-all duration-300 font-semibold shadow-lg"
+                className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-[#FE9701] to-[#5B8DEF] text-white rounded-xl hover:from-[#3060E0] hover:to-[#4A7CDE] transition-all duration-300 font-semibold shadow-lg"
               >
                 Learn About Our Security
                 <ArrowRight className="w-5 h-5 ml-2" />

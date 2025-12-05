@@ -53,7 +53,7 @@ const Header = () => {
               </motion.div>
               <div className="flex flex-col">
                 <span className="text-2xl font-bold text-[#000] transition-colors duration-300">
-                  ABUMDATA
+                  DIKKODATA
                 </span>
               </div>
             </Link>
@@ -69,10 +69,10 @@ const Header = () => {
                 >
                   <Link
                     href={item.href}
-                    className="relative text-gray-600 hover:text-[#4070F4] transition-colors duration-300 font-medium group py-2"
+                    className="relative text-gray-600 hover:text-[#FE9701] transition-colors duration-300 font-medium group py-2"
                   >
                     {item.name}
-                    <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-[#4070F4] to-[#5B8DEF] group-hover:w-full transition-all duration-300" />
+                    <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-[#FE9701] to-[#5B8DEF] group-hover:w-full transition-all duration-300" />
                   </Link>
                 </motion.div>
               ))}
@@ -80,23 +80,23 @@ const Header = () => {
 
             {/* Desktop CTA Buttons */}
             <div className="hidden lg:flex items-center space-x-4">
-              <Link href="https://app.abumdata.com.ng/login" target="_blank">
+              <Link href="https://app.dikkodata.com.ng/login" target="_blank">
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="px-6 py-2.5 text-[#4070F4] border-2 border-[#4070F4] rounded-xl hover:bg-[#4070F4] hover:text-white transition-all duration-300 font-semibold"
+                  className="px-6 py-2.5 text-[#FE9701] border-2 border-[#FE9701] rounded-xl hover:bg-[#FE9701] hover:text-white transition-all duration-300 font-semibold"
                 >
                   Login
                 </motion.button>
               </Link>
-              <Link href="https://app.abumdata.com.ng/register" target="_blank">
+              <Link href="https://app.dikkodata.com.ng/register" target="_blank">
                 <motion.button
                   whileHover={{
                     scale: 1.05,
                     boxShadow: "0 10px 25px rgba(64, 112, 244, 0.3)",
                   }}
                   whileTap={{ scale: 0.95 }}
-                  className="px-6 py-2.5 bg-gradient-to-r from-[#4070F4] to-[#5B8DEF] text-white rounded-xl hover:from-[#3060E0] hover:to-[#4A7CDE] transition-all duration-300 font-semibold shadow-lg"
+                  className="px-6 py-2.5 bg-gradient-to-r from-[#FE9701] to-[#5B8DEF] text-white rounded-xl hover:from-[#3060E0] hover:to-[#4A7CDE] transition-all duration-300 font-semibold shadow-lg"
                 >
                   Get Started
                 </motion.button>
@@ -107,7 +107,7 @@ const Header = () => {
             <motion.button
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
-              className="lg:hidden p-2 text-[#4070F4] hover:bg-[#4070F4]/10 rounded-lg transition-colors duration-300"
+              className="lg:hidden p-2 text-[#FE9701] hover:bg-[#FE9701]/10 rounded-lg transition-colors duration-300"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
               <AnimatePresence mode="wait">
@@ -171,7 +171,7 @@ const Header = () => {
                     >
                       <Link
                         href={item.href}
-                        className="block text-lg font-medium text-gray-700 hover:text-[#4070F4] transition-colors duration-300 py-3 border-b border-gray-100"
+                        className="block text-lg font-medium text-gray-700 hover:text-[#FE9701] transition-colors duration-300 py-3 border-b border-gray-100"
                         onClick={() => setIsMenuOpen(false)}
                       >
                         {item.name}
@@ -187,20 +187,20 @@ const Header = () => {
                   transition={{ delay: 0.4 }}
                   className="mt-8 space-y-4"
                 >
-                  <Link href="https://app.abumdata.com.ng/login" target="_blank">
+                  <Link href="https://app.dikkodata.com.ng/login" target="_blank">
                     <button
-                      className="w-full px-6 py-3 text-[#4070F4] border-2 border-[#4070F4] rounded-xl hover:bg-[#4070F4] hover:text-white transition-all duration-300 font-semibold"
+                      className="w-full px-6 py-3 text-[#FE9701] border-2 border-[#FE9701] rounded-xl hover:bg-[#FE9701] hover:text-white transition-all duration-300 font-semibold"
                       onClick={() => setIsMenuOpen(false)}
                     >
                       Login
                     </button>
                   </Link>
                   <Link
-                    href="https://app.abumdata.com.ng/register"
+                    href="https://app.dikkodata.com.ng/register"
                     target="_blank"
                   >
                     <button
-                      className="w-full px-6 py-3 bg-gradient-to-r from-[#4070F4] to-[#5B8DEF] text-white rounded-xl hover:from-[#3060E0] hover:to-[#4A7CDE] transition-all duration-300 font-semibold shadow-lg"
+                      className="w-full px-6 py-3 bg-gradient-to-r from-[#FE9701] to-[#5B8DEF] text-white rounded-xl hover:from-[#3060E0] hover:to-[#4A7CDE] transition-all duration-300 font-semibold shadow-lg"
                       onClick={() => setIsMenuOpen(false)}
                     >
                       Get Started
@@ -216,8 +216,8 @@ const Header = () => {
                   className="mt-8 pt-8 border-t border-gray-200"
                 >
                   <p className="text-sm text-gray-500 mb-2">Need help?</p>
-                  <p className="text-sm text-[#4070F4] font-medium">
-                    support@abumdata.com.ng
+                  <p className="text-sm text-[#FE9701] font-medium">
+                    support@dikkodata.com.ng
                   </p>
                 </motion.div>
               </div>

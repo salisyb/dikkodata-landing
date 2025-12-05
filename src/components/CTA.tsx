@@ -5,7 +5,7 @@ import { ArrowRight, Download, Smartphone, CheckCircle, Star } from "lucide-reac
 
 const CTA = () => {
   return (
-    <section className="py-24 bg-gradient-to-br from-[#4070F4] via-[#5B8DEF] to-[#4070F4] text-white relative overflow-hidden">
+    <section className="py-24 bg-gradient-to-br from-[#FE9701] via-[#5B8DEF] to-[#FE9701] text-white relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-10 w-80 h-80 bg-white/5 rounded-full blur-3xl" />
@@ -87,7 +87,7 @@ const CTA = () => {
                 <span className="block text-white/90">Digital Payments?</span>
               </h2>
               <p className="text-xl text-white/90 leading-relaxed mb-8">
-                Join thousands of satisfied users who have made Abum DATA their go-to payment app. Experience the
+                Join thousands of satisfied users who have made DIKKODATA their go-to payment app. Experience the
                 future of digital transactions today.
               </p>
             </div>
@@ -115,17 +115,17 @@ const CTA = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="https://app.abumdata.com.ng/register" target="_blank">
+              <Link href="https://app.dikkodata.com.ng/register" target="_blank">
                 <motion.button
                   whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(0, 0, 0, 0.3)" }}
                   whileTap={{ scale: 0.95 }}
-                  className="inline-flex items-center px-8 py-4 bg-white text-[#4070F4] rounded-xl hover:bg-gray-100 transition-all duration-300 font-semibold shadow-lg w-full sm:w-auto justify-center"
+                  className="inline-flex items-center px-8 py-4 bg-white text-[#FE9701] rounded-xl hover:bg-gray-100 transition-all duration-300 font-semibold shadow-lg w-full sm:w-auto justify-center"
                 >
                   <Download className="w-5 h-5 mr-2" />
                   Get Started Now
                 </motion.button>
               </Link>
-              <Link href="https://app.abumdata.com.ng/login" target="_blank">
+              <Link href="https://app.dikkodata.com.ng/login" target="_blank">
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}

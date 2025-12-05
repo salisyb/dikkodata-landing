@@ -9,7 +9,7 @@ const testimonials = [
   {
     name: "Ibrahim H.",
     role: "Small Business Owner",
-    text: "abumDATA has revolutionized how I manage my business payments. I can pay all my bills in one place and track everything seamlessly. It's saved me hours every week!",
+    text: "DIKKODATA has revolutionized how I manage my business payments. I can pay all my bills in one place and track everything seamlessly. It's saved me hours every week!",
     avatar: "/images/logo.png?height=80&width=80",
     rating: 5,
     location: "Lagos, Nigeria",
@@ -33,7 +33,7 @@ const testimonials = [
   {
     name: "Fatima A.",
     role: "University Student",
-    text: "As a student, managing my expenses is crucial. abumDATA makes it so easy to pay for data, electricity, and even my cable subscription. The interface is super user-friendly!",
+    text: "As a student, managing my expenses is crucial. DIKKODATA makes it so easy to pay for data, electricity, and even my cable subscription. The interface is super user-friendly!",
     avatar: "/images/logo.png?height=80&width=80",
     rating: 5,
     location: "Kano, Nigeria",
@@ -41,7 +41,7 @@ const testimonials = [
   {
     name: "Michael O.",
     role: "Entrepreneur",
-    text: "The security features give me complete peace of mind. I've been using abumDATA for over a year now, and every transaction has been smooth and secure. Highly recommended!",
+    text: "The security features give me complete peace of mind. I've been using DIKKODATA for over a year now, and every transaction has been smooth and secure. Highly recommended!",
     avatar: "/images/logo.png?height=80&width=80",
     rating: 5,
     location: "Port Harcourt, Nigeria",
@@ -89,7 +89,7 @@ const Testimonials = () => {
     >
       {/* Background Elements */}
       <div className="absolute inset-0">
-        <div className="absolute top-20 left-10 w-72 h-72 bg-[#4070F4]/5 rounded-full blur-3xl" />
+        <div className="absolute top-20 left-10 w-72 h-72 bg-[#FE9701]/5 rounded-full blur-3xl" />
         <div className="absolute bottom-20 right-10 w-96 h-96 bg-purple-100/40 rounded-full blur-3xl" />
       </div>
 
@@ -108,10 +108,10 @@ const Testimonials = () => {
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-gray-900">
             What Our Users
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#4070F4] to-[#60A5FA]"> Say</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FE9701] to-[#60A5FA]"> Say</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Don't just take our word for it. Here's what real users have to say about their experience with Abum DATA.
+            Don't just take our word for it. Here's what real users have to say about their experience with DIKKODATA.
           </p>
         </motion.div>
 
@@ -124,7 +124,7 @@ const Testimonials = () => {
           className="max-w-4xl mx-auto mb-16"
         >
           <div className="relative bg-white rounded-3xl p-8 md:p-12 shadow-2xl border border-gray-100">
-            <Quote className="absolute top-6 left-6 w-12 h-12 text-[#4070F4]/20" />
+            <Quote className="absolute top-6 left-6 w-12 h-12 text-[#FE9701]/20" />
 
             <div className="text-center">
               <div className="flex justify-center mb-6">
@@ -141,11 +141,11 @@ const Testimonials = () => {
                 <img
                   src={testimonials[currentIndex].avatar || "/placeholder.svg"}
                   alt={testimonials[currentIndex].name}
-                  className="w-16 h-16 rounded-full border-4 border-[#4070F4]/20"
+                  className="w-16 h-16 rounded-full border-4 border-[#FE9701]/20"
                 />
                 <div className="text-left">
                   <p className="font-bold text-xl text-gray-900">{testimonials[currentIndex].name}</p>
-                  <p className="text-[#4070F4] font-medium">{testimonials[currentIndex].role}</p>
+                  <p className="text-[#FE9701] font-medium">{testimonials[currentIndex].role}</p>
                   <p className="text-gray-500 text-sm">{testimonials[currentIndex].location}</p>
                 </div>
               </div>
@@ -155,7 +155,7 @@ const Testimonials = () => {
             <div className="flex justify-center items-center space-x-4 mt-8">
               <button
                 onClick={prevTestimonial}
-                className="p-3 bg-gray-100 hover:bg-[#4070F4] hover:text-white rounded-full transition-all duration-300"
+                className="p-3 bg-gray-100 hover:bg-[#FE9701] hover:text-white rounded-full transition-all duration-300"
               >
                 <ArrowLeft className="w-5 h-5" />
               </button>
@@ -166,7 +166,7 @@ const Testimonials = () => {
                     key={index}
                     onClick={() => setCurrentIndex(index)}
                     className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                      index === currentIndex ? "bg-[#4070F4] w-8" : "bg-gray-300"
+                      index === currentIndex ? "bg-[#FE9701] w-8" : "bg-gray-300"
                     }`}
                   />
                 ))}
@@ -174,7 +174,7 @@ const Testimonials = () => {
 
               <button
                 onClick={nextTestimonial}
-                className="p-3 bg-gray-100 hover:bg-[#4070F4] hover:text-white rounded-full transition-all duration-300"
+                className="p-3 bg-gray-100 hover:bg-[#FE9701] hover:text-white rounded-full transition-all duration-300"
               >
                 <ArrowRight className="w-5 h-5" />
               </button>
@@ -210,11 +210,11 @@ const Testimonials = () => {
                   <img
                     src={testimonial.avatar || "/placeholder.svg"}
                     alt={testimonial.name}
-                    className="w-12 h-12 rounded-full border-2 border-[#4070F4]/20"
+                    className="w-12 h-12 rounded-full border-2 border-[#FE9701]/20"
                   />
                   <div>
                     <p className="font-semibold text-gray-900">{testimonial.name}</p>
-                    <p className="text-sm text-[#4070F4]">{testimonial.role}</p>
+                    <p className="text-sm text-[#FE9701]">{testimonial.role}</p>
                   </div>
                 </div>
               </div>
@@ -237,7 +237,7 @@ const Testimonials = () => {
             { number: "4.9/5", label: "App Rating" },
           ].map((stat, index) => (
             <div key={index} className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-[#4070F4] mb-2">{stat.number}</div>
+              <div className="text-3xl md:text-4xl font-bold text-[#FE9701] mb-2">{stat.number}</div>
               <div className="text-gray-600">{stat.label}</div>
             </div>
           ))}

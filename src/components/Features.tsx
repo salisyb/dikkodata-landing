@@ -39,9 +39,9 @@ const features = [
     icon: CreditCard,
     title: "Secure Payments",
     description: "Bank-level security for all your transactions",
-    color: "from-[#4070F4] to-[#5B8DEF]",
+    color: "from-[#FE9701] to-[#5B8DEF]",
     bgColor: "bg-blue-50",
-    iconColor: "text-[#4070F4]",
+    iconColor: "text-[#FE9701]",
   },
 ]
 
@@ -77,7 +77,7 @@ const Features = () => {
     >
       {/* Background Elements */}
       <div className="absolute inset-0">
-        <div className="absolute top-20 left-10 w-64 h-64 bg-[#4070F4]/5 rounded-full blur-3xl" />
+        <div className="absolute top-20 left-10 w-64 h-64 bg-[#FE9701]/5 rounded-full blur-3xl" />
         <div className="absolute bottom-20 right-10 w-80 h-80 bg-purple-100/50 rounded-full blur-3xl" />
       </div>
 
@@ -90,16 +90,16 @@ const Features = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <div className="inline-flex items-center px-4 py-2 bg-[#4070F4]/10 rounded-full text-[#4070F4] text-sm font-medium mb-6">
+          <div className="inline-flex items-center px-4 py-2 bg-[#FE9701]/10 rounded-full text-[#FE9701] text-sm font-medium mb-6">
             <Zap className="w-4 h-4 mr-2" />
             Powerful Features
           </div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-gray-900">
             Everything You Need in
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#4070F4] to-[#60A5FA]"> One App</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FE9701] to-[#60A5FA]"> One App</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            From bill payments to airtime purchases, Abum DATA provides all essential services with unmatched speed and
+            From bill payments to airtime purchases, DIKKODATA provides all essential services with unmatched speed and
             security.
           </p>
         </motion.div>
@@ -137,13 +137,13 @@ const Features = () => {
 
                 {/* Content */}
                 <div className="relative">
-                  <h3 className="text-2xl font-bold mb-3 text-gray-900 group-hover:text-[#4070F4] transition-colors duration-300">
+                  <h3 className="text-2xl font-bold mb-3 text-gray-900 group-hover:text-[#FE9701] transition-colors duration-300">
                     {feature.title}
                   </h3>
                   <p className="text-gray-600 leading-relaxed mb-4">{feature.description}</p>
 
                   {/* Learn More Link */}
-                  <div className="flex items-center text-[#4070F4] font-medium opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-x-2 group-hover:translate-x-0">
+                  <div className="flex items-center text-[#FE9701] font-medium opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-x-2 group-hover:translate-x-0">
                     <span className="text-sm">Learn more</span>
                     <ArrowRight className="w-4 h-4 ml-2" />
                   </div>
@@ -168,7 +168,7 @@ const Features = () => {
           <motion.button
             whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(64, 112, 244, 0.3)" }}
             whileTap={{ scale: 0.95 }}
-            className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-[#4070F4] to-[#5B8DEF] text-white rounded-xl hover:from-[#3060E0] hover:to-[#4A7CDE] transition-all duration-300 font-semibold shadow-lg"
+            className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-[#FE9701] to-[#5B8DEF] text-white rounded-xl hover:from-[#3060E0] hover:to-[#4A7CDE] transition-all duration-300 font-semibold shadow-lg"
           >
             Get Started Today
             <ArrowRight className="w-5 h-5 ml-2" />

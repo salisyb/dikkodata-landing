@@ -47,7 +47,7 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0">
-        <div className="absolute top-20 left-10 w-72 h-72 bg-[#4070F4]/5 rounded-full blur-3xl" />
+        <div className="absolute top-20 left-10 w-72 h-72 bg-[#FE9701]/5 rounded-full blur-3xl" />
         <div className="absolute bottom-20 right-10 w-96 h-96 bg-purple-500/5 rounded-full blur-3xl" />
       </div>
 
@@ -66,11 +66,11 @@ const Footer = () => {
                 viewport={{ once: true }}
               >
                 <div className="flex items-center space-x-3 mb-6">
-                  <div className="w-12 h-12 bg-gradient-to-br from-[#4070F4] to-[#5B8DEF] rounded-xl flex items-center justify-center">
+                  <div className="w-12 h-12 bg-gradient-to-br from-[#FE9701] to-[#5B8DEF] rounded-xl flex items-center justify-center">
                     <span className="text-white font-bold text-xl">R</span>
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold">Abum DATA</h3>
+                    <h3 className="text-2xl font-bold">DIKKODATA</h3>
                     <p className="text-sm text-gray-400">Fast & Secure</p>
                   </div>
                 </div>
@@ -81,8 +81,8 @@ const Footer = () => {
                 </p>
                 <div className="space-y-3">
                   <div className="flex items-center space-x-3">
-                    <Mail className="w-5 h-5 text-[#4070F4]" />
-                    <span className="text-gray-400">support@abumdata.com.ng</span>
+                    <Mail className="w-5 h-5 text-[#FE9701]" />
+                    <span className="text-gray-400">support@dikkodata.com.ng</span>
                   </div>
                 </div>
               </motion.div>
@@ -105,7 +105,7 @@ const Footer = () => {
                     <li key={link.name}>
                       <Link
                         href={link.href}
-                        className="text-gray-400 hover:text-[#4070F4] transition-colors duration-300 flex items-center group"
+                        className="text-gray-400 hover:text-[#FE9701] transition-colors duration-300 flex items-center group"
                       >
                         {link.name}
                         <ArrowRight className="w-4 h-4 ml-1 opacity-0 group-hover:opacity-100 transform translate-x-0 group-hover:translate-x-1 transition-all duration-300" />
@@ -143,7 +143,7 @@ const Footer = () => {
                 <Link
                   key={social.label}
                   href={social.href}
-                  className="w-10 h-10 bg-gray-800 hover:bg-[#4070F4] rounded-lg flex items-center justify-center transition-all duration-300 group"
+                  className="w-10 h-10 bg-gray-800 hover:bg-[#FE9701] rounded-lg flex items-center justify-center transition-all duration-300 group"
                 >
                   <span className="sr-only">{social.label}</span>
                   <social.icon className="w-5 h-5 text-gray-400 group-hover:text-white transition-colors duration-300" />
