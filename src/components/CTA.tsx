@@ -115,7 +115,7 @@ const CTA = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="https://app.dikkodata.com.ng/register" target="_blank">
+              <Link href="https://app.dikkodata.com.ng" target="_blank">
                 <motion.button
                   whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(0, 0, 0, 0.3)" }}
                   whileTap={{ scale: 0.95 }}
@@ -125,7 +125,7 @@ const CTA = () => {
                   Get Started Now
                 </motion.button>
               </Link>
-              <Link href="https://app.dikkodata.com.ng/login" target="_blank">
+              <Link href="https://app.dikkodata.com.ng" target="_blank">
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}

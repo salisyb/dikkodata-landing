@@ -80,7 +80,7 @@ const Header = () => {
 
             {/* Desktop CTA Buttons */}
             <div className="hidden lg:flex items-center space-x-4">
-              <Link href="https://app.dikkodata.com.ng/login" target="_blank">
+              <Link href="https://app.dikkodata.com.ng" target="_blank">
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
@@ -89,7 +89,7 @@ const Header = () => {
                   Login
                 </motion.button>
               </Link>
-              <Link href="https://app.dikkodata.com.ng/register" target="_blank">
+              <Link href="https://app.dikkodata.com.ng" target="_blank">
                 <motion.button
                   whileHover={{
                     scale: 1.05,
@@ -187,7 +187,7 @@ const Header = () => {
                   transition={{ delay: 0.4 }}
                   className="mt-8 space-y-4"
                 >
-                  <Link href="https://app.dikkodata.com.ng/login" target="_blank">
+                  <Link href="https://app.dikkodata.com.ng" target="_blank">
                     <button
                       className="w-full px-6 py-3 text-[#FE9701] border-2 border-[#FE9701] rounded-xl hover:bg-[#FE9701] hover:text-white transition-all duration-300 font-semibold"
                       onClick={() => setIsMenuOpen(false)}
@@ -196,7 +196,7 @@ const Header = () => {
                     </button>
                   </Link>
                   <Link
-                    href="https://app.dikkodata.com.ng/register"
+                    href="https://app.dikkodata.com.ng"
                     target="_blank"
                   >
                     <button

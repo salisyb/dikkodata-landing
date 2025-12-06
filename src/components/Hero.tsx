@@ -47,7 +47,7 @@ export default function Hero() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
-            <Link href="https://app.dikkodata.com.ng/register">
+            <Link href="https://app.dikkodata.com.ng">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 className="px-8 py-4 bg-gradient-to-r from-[#FE9701] to-indigo-500 text-white font-semibold rounded-xl shadow-lg hover:shadow-2xl transition-all flex items-center gap-2"
@@ -57,7 +57,7 @@ export default function Hero() {
               </motion.button>
             </Link>
 
-            <Link href="https://app.dikkodata.com.ng/login">
+            <Link href="https://app.dikkodata.com.ng">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 className="px-8 py-4 bg-white border border-gray-300 text-gray-900 font-semibold rounded-xl shadow-md hover:bg-gray-100 transition"
